@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "build-css": "tailwindcss -i styles/globals.css -o public/style.css"
+  },
+  "dependencies": {
+    "autoprefixer": "^9.8.8",
+    "axios": "^1.4.0",
+    "heroicons": "^2.0.18",
+    "next": "latest",
+    "postcss": "^7.0.39",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17"
+  }
+}
