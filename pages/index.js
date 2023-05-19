@@ -10,7 +10,7 @@ const CVINDEX = () => {
   useEffect(() => {
     axios
       .request({
-        url: `${process.env.API_URL}`,
+        url: "https://joba-network-staging.herokuapp.com/api/auth/user/0xb75A08E82A1Bf0FccEb89bbdAf9AAE00BE8CA29a",
         method: "get",
         withCredentials: false,
       })
